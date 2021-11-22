@@ -23,7 +23,35 @@ Two technical analysis deliverables and a written report were required:
 
 - Using knowledge of the cloud ETL process; an AWS RDS database with tables was created in pgAdmin, a dataset was selected from the Amazon Review datasets and extract into a DataFrame. The DataFrame was transformed into four separate DataFrames that matched the table schema in pgAdmin. The transformed data was uploaded into the appropriate tables and queries were run in pgAdmin to confirm the data has been uploaded.
 
+Step 1: From the Amazon Review datasets, pick a dataset that you would like to analyze. All the datasets have the same schemata, as shown in this image:
+
 Dataset selected: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Grocery_v1_00.tsv.gz
+
+Step 2: Create a new database with Amazon RDS just as you did in this module.
+
+Note: I am having problems setting up Amazon RDS.
+
+Step 3: In pgAdmin, create a new database in your Amazon RDS server that you just create.
+
+Note: Cannot connect to Amazon.
+
+Step 4: Download the challenge_schema.sql file to your computer.
+
+Step 5: In pgAdmin, run a new query to create the tables for your new database using the code from the challenge_schema.sql file. After you run the query, you should have the following four tables in your database: customers_table, products_table, review_id_table, and vine_table.
+
+![customers_table.png](https://github.com/KimberlyCrawford/Amazon_Vine_Analysis/blob/main/Resources/customers_table.png)
+
+![products_table.png](https://github.com/KimberlyCrawford/Amazon_Vine_Analysis/blob/main/Resources/products_table.png)
+
+![review_id_table.png](https://github.com/KimberlyCrawford/Amazon_Vine_Analysis/blob/main/Resources/review_id_table.png)
+
+![vine_table.png](https://github.com/KimberlyCrawford/Amazon_Vine_Analysis/blob/main/Resources/vine_table.png)
+
+Step 6: Download the Amazon_Reviews_ETL_starter_code.ipynb file, then upload the file as a Google Colab Notebook, and rename it Amazon_Reviews_ETL.
+
+Step 7: First extract one of the review datasets, then create a new DataFrame.
+
+Step 8: Next, follow the steps below to transform the dataset into four DataFrames that will match the schema in the pgAdmin tables:
 
 #### Deliverable 2: Determine Bias of Vine Reviews
 
