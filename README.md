@@ -69,3 +69,5 @@ The analysis addressed the following questions:
 
 - The summary states whether or not there is bias, and the results support this statement (2 pt)
 - An additional analysis is recommended to support the statement (2 pt)
+
+#### Module 16, Data Analysis & Visualization Certificate Program, UT Austin McCombs School of Business, 2021.
